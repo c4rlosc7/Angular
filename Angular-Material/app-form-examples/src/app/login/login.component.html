@@ -1,6 +1,6 @@
 <div class="container">
-  <h2>Login</h2>
-  <form [formGroup]="form">
+  <h2 style="text-align: center;">Login</h2>
+  <form [formGroup]="form" class="login-form">
     <div class="container-login">
       <!--Surname-->
       <mat-form-field>
@@ -9,8 +9,8 @@
       </mat-form-field>
       <!--Email-->
       <mat-form-field>
-        <input formControlName="email" matInput placeholder="Email*">
-        <mat-error>Invalid email</mat-error>
+        <input type="password" formControlName="password" matInput placeholder="Password">
+        <mat-error>This field is required</mat-error>
       </mat-form-field>
       <div class="button-row">
         <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">Submit</button>

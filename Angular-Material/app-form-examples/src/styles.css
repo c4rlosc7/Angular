@@ -2,9 +2,23 @@
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+body{
+    margin: 0px;
+}
+
 .container-login > * {
     width: 100%;
     flex: 1 1 auto;
+}
+
+.login-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    box-shadow: 8px 9px 27px 5px grey;
+    text-align: center;
 }
 
 .button-row button{
