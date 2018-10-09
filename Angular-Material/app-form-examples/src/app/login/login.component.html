@@ -8,8 +8,9 @@
         <mat-error>This field is required</mat-error>
       </mat-form-field>
       <!--Email-->
-      <mat-form-field>
-        <input type="password" formControlName="password" matInput placeholder="Password">
+      <mat-form-field class="example-container">
+        <input formControlName="password" matInput placeholder="Password" [type]="hide ? 'password' : 'text'">
+        <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
         <mat-error>This field is required</mat-error>
       </mat-form-field>
       <div class="button-row">

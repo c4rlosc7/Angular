@@ -19,6 +19,7 @@ import * as Material from '@angular/material';
     Material.MatDatepickerModule,
     Material.MatNativeDateModule,
     Material.MatButtonModule,
+    Material.MatIconModule
   ],
   exports: [
     Material.MatButtonModule,
@@ -35,6 +36,7 @@ import * as Material from '@angular/material';
     Material.MatDatepickerModule,
     Material.MatNativeDateModule,
     Material.MatButtonModule,
+    Material.MatIconModule
   ],
   declarations: []
 })

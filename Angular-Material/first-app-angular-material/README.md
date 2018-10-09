@@ -6,7 +6,7 @@ You can use either the npm or yarn command-line tool to install packages. Use wh
 NPM
 > npm install --save @angular/material @angular/cdk @angular/animations
 
-## Step 2: Configure animations
+## Step 2: Configure animations (app.module.ts)
 ```javascript
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -47,5 +47,6 @@ Some components (mat-slide-toggle, mat-slider, matTooltip) rely on HammerJS for 
 
 ## Step 6 (Optional): Add Material Icons
 If you want to use the mat-icon component with the official Material Design Icons, load the icon font in your index.html.
+> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 > <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
