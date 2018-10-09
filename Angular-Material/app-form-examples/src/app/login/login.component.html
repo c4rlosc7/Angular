@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Login</h2>
+  <form [formGroup]="form">
+    <div class="container-login">
+      <!--Surname-->
+      <mat-form-field>
+        <input formControlName="username" matInput placeholder="Username*">
+        <mat-error>This field is required</mat-error>
+      </mat-form-field>
+      <!--Email-->
+      <mat-form-field>
+        <input formControlName="email" matInput placeholder="Email*">
+        <mat-error>Invalid email</mat-error>
+      </mat-form-field>
+      <div class="button-row">
+        <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">Submit</button>
+        <button mat-raised-button color="warn" (click)="onClear()">Clear</button>
+      </div>
+    </div>
+  </form>
+</div>

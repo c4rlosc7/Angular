@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.container-login > * {
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.button-row button{
+    margin: 5px;
+}
